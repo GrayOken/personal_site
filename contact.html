@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About</title>
+		<title>Contact</title>
 		<link rel="stylesheet" href="styles.css" />
 		<script src="app.js"></script>
 	</head>
@@ -13,38 +13,27 @@
 			<nav class="nav-bar">
 				<li><a href="index.html"> Home </a></li>
 				<li><a href="portfolio.html"> Portfolio </a></li>
-				<li><a class="active" href="about.html"> About </a></li>
-				<li><a href="contact.html"> Contact </a></li>
+				<li><a href="about.html"> About </a></li>
+				<li><a class="active" href="contact.html"> Contact </a></li>
 			</nav>
 			<div id="main-content-container">
-				<p>
-					You know I cant tell you what I'm about right now, but I can
-					tell you what I'm not about, and I'm not about to write my
-					3rd page for the day lmao have some lorem
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Libero atque officiis magnam inventore debitis saepe tempore
-					temporibus dolores quaerat earum nulla voluptatum expedita
-					ducimus, nostrum reprehenderit qui, error iure neque! Ex
-					necessitatibus quis aliquid, voluptatum culpa libero
-					possimus tenetur ipsum nemo amet, aperiam a, numquam quasi
-					quas veniam maxime quia assumenda pariatur reiciendis
-					dignissimos expedita beatae provident repellendus.
-					Repellendus, quibusdam? Laudantium, consectetur quas!
-					Aspernatur, perferendis suscipit, velit provident
-					consectetur sequi error vel cum voluptatem ipsam, porro
-					temporibus recusandae tempora magni et iure iste facilis
-					praesentium vero. Deserunt optio sunt assumenda. Quod harum
-					id neque temporibus quis illo iure in soluta reiciendis
-					rerum debitis assumenda laborum quisquam provident delectus
-					iusto nobis, natus nisi alias, numquam dolorem sit
-					reprehenderit maiores quo. Omnis. Sed deleniti fugit nobis
-					praesentium deserunt qui corporis, commodi exercitationem
-					molestiae quisquam, fuga ab ex corrupti eaque autem, iste
-					assumenda soluta totam possimus? Harum eos ea rerum
-					laudantium, illo quibusdam?
-				</p>
+				<div class="contact-container">
+					<ul class="contact-ul">
+						<li><a href="">Send me an email</a></li>
+						<li><a href="">Request on Discord</a></li>
+					</ul>
+				</div>
+				<div class="form-submit-container">
+					<form action="index.html">
+						<label for="name">Name</label>
+						<input id="name" name="name" type="text" />
+						<label for="email">email</label>
+						<input id="email" name="email" type="text" />
+						<label for="message">Message</label>
+						<input id="message" name="message" type="text" />
+						<input type="submit" value="Send" onclick="success()"/>
+					</form>
+				</div>
 			</div>
 			<footer>
 				<div class="footer-div">
