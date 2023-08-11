@@ -4,8 +4,111 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Contact</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="app.js"></script>
 	</head>
 	<body>
-		<div id="main-container"></div>
+		<div id="main-container">
+			<header id="header-container"></header>
+			<nav class="nav-bar">
+				<li><a href="index.html"> Home </a></li>
+				<li><a href="portfolio.html"> Portfolio </a></li>
+				<li><a href="about.html"> About </a></li>
+				<li><a class="active" href="contact.html"> Contact </a></li>
+			</nav>
+			<div id="main-content-container">
+				<div class="contact-container">
+					<ul class="contact-ul">
+						<li><a href="">Send me an email</a></li>
+						<li><a href="">Request on Discord</a></li>
+					</ul>
+				</div>
+				<div class="form-submit-container">
+					<form action="index.html">
+						<label for="name">Name</label>
+						<input id="name" name="name" type="text" />
+						<label for="email">email</label>
+						<input id="email" name="email" type="text" />
+						<label for="message">Message</label>
+						<input id="message" name="message" type="text" />
+						<input type="submit" value="Send" onclick="success()"/>
+					</form>
+				</div>
+			</div>
+			<footer>
+				<div class="footer-div">
+					<p>
+						If I had anything interesting to put in the footer it
+						would go here, but since I don't I will just put some
+						useless shit that shows I know how to make a link tree
+						and such
+					</p>
+					<ul class="footer-ul">
+						<li>
+							<a
+								href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+								target="_blank"
+								>All</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+								target="_blank"
+								>these</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+								target="_blank"
+								>will</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+								target="_blank"
+								>rickroll</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+								target="_blank"
+								>you</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-div">
+					<img
+						class="footer-img"
+						src="https://loremflickr.com/240/240/cat?random1"
+					/>
+					<img
+						class="footer-img"
+						src="https://loremflickr.com/240/240/cat?random2"
+					/>
+					<img
+						class="footer-img"
+						src="https://loremflickr.com/240/240/cat?random3"
+					/>
+					<img
+						class="footer-img"
+						src="https://loremflickr.com/240/240/cat?random4"
+					/>
+				</div>
+				<div class="footer-div">
+					<button
+						id="btn-footer"
+						type="button"
+						onclick="footerFunc()"
+					>
+						Press me please my fuck just do it
+					</button>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
